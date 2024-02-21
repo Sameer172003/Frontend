@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="s1.css">
+<body>
+    <div class="help1">
+        <div class="help2">
+            <form action="/server">
+                <h2>Application Form</h2>
+                <div id="name">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Enter First Name" required>
+                    <input type="text" placeholder="Enter Last Name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Enter Email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="pass">Password:</label>
+                    <input type="password" placeholder="Enter Password" required>
+                </div>
+                <br>
+                <div>
+                    <label for="sex">Sex:</label>
+                    <input type="radio" name="sex">
+                    <label for="sex">Male</label>
+                    <input type="radio" name="sex">
+                    <label for="sex">Female</label>
+                    <input type="radio" name="sex">
+                    <label for="sex">Others</label>
+                </div>
+                <br>
+                <div>
+                    <label for="num">Age:</label>
+                    <input type="number" required>
+                </div>
+                <br>
+                <div>
+                    <label for="dob">D.O.B:</label>
+                    <input type="date" required>
+                </div>
+                <br>
+                <div>
+                    <label for="pro">Profession:</label>
+                    <select name="pro">
+                        <option value="pr">Student</option>
+                        <option value="pr">Developer</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="numb">Phone Number:</label>
+                    <input type="tel" placeholder="Enter Phone Number" required>
+                </div>
+                <br>
+                <div>
+                    <label for="pic">Upload Picture:</label>
+                    <input type="file" required>
+                </div>
+                <br>
+                <div>
+                    <label for="mess">Write Something about you:</label>
+                    <br>
+                    <br>
+                    <textarea name="mess" id="mess" rows="5"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="tell">Do you agree all terms and conditions?</label>
+                    <input type="checkbox" name="tell" id="tell">
+                    <label for="tell">Yes</label>
+                    <input type="checkbox" name="tell" id="tell">
+                    <label for="tell">No</label>
+                </div>
+                <br>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
