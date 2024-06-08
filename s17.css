@@ -1,0 +1,13 @@
+.box{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(187, 242, 242);
+}
+.btn{
+    display: block;
+    margin: 10px 0px 10px 120px;
+}
+ul li{
+    list-style-type: none;
+}

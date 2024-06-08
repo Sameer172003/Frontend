@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 40px;
+    width: 100vw;
+    background-color:rgb(41, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inner{
+    display: flex;
+    align-items: center;
+}
+.first{
+    margin-left: 20px;
+    transition: 1s;
+}
+.another{
+    margin-right: 20px;
+    transition: 1s;
+}
+.first:hover{
+    background-color: gray;
+}
+.another:hover{
+    background-color: gray;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
